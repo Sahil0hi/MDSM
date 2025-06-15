@@ -1,0 +1,12 @@
+name: sampling-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - torch
+      - tqdm
